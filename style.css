@@ -1,0 +1,158 @@
+/* ==============
+    google fonts
+================= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* ==============
+    generall css
+================= */
+ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.link-button a{
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 10px 40px;
+    transition: .3s;
+}
+.link-button a:hover{
+    background-color: #27AE60;
+    letter-spacing: 2px;
+    border-radius: 30px 0 30px 0;
+}
+
+
+/* ===================
+    portfolio-header
+================= */
+
+.portfolio-header{
+    background-color: #b2bec3;
+    margin-bottom: 40px;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    padding: 15px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar{
+    width: 80%;
+}
+.nav-bar ul{
+    display: flex; 
+}
+.nav-bar ul li a{
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+#menu-bar{
+    display: none;
+}
+
+
+/* ===================
+    top-banner
+================= */
+.top-banner{
+    background-color: #fff;
+}
+.portpolio-banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.my-portpolio-text{
+    width: 55%;
+}
+.my-portpolio-text h1{
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 30px;
+}
+.my-portpolio-text h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.my-portpolio-text h2 span{
+    color: orange;
+}
+.my-portpolio-text h3{
+    font-size: 35px;
+    font-weight: 300;
+}
+.my-portpolio-text p{
+    font-size: 20px;
+}
+.MyPortpolio-img{
+    width: 45%;
+}
+
+/* ===================
+    about-section
+================= */
+.heading{
+    text-transform: uppercase;
+}
+.heading span{
+    color: #16a085;
+}
+.heading h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+.about-section{
+    background-color: #fff;
+    padding: 100px 0;
+}
+.about-contant{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-image{
+    width: 25%;
+}
+.about-text{
+    width: 70%;
+}
+.about-text p{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.about-me ul li{
+    line-height: 50px;
+}
+.about-me ul li span{
+    color: #27ae60;
+}

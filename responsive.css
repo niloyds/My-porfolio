@@ -1,0 +1,68 @@
+@media (max-width:991px){
+    .nav-bar{
+        display: none;
+    }
+    #menu-bar{
+        display: block;
+        padding-top: 20px;
+    }
+    .my-portpolio-text{
+        width: 100%; 
+        margin-bottom: 100px;      
+    }
+    .MyPortpolio-img{
+        width: 60%;
+        margin: 0 auto;       
+    }
+    .about-image{
+        width: 55%;  
+        margin: 0 auto;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .my-portpolio-text h2{
+        line-height: 20px;
+    }
+}
+
+@media (max-width:668px){
+    .my-portpolio-text h1{
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 30px;
+    }
+    .my-portpolio-text h2{
+        line-height: 55px;
+        font-size: 30px;
+    }
+    .my-portpolio-text h1{
+        line-height: 40px;
+    }
+    .my-portpolio-text h3{
+        font-size: 25px;
+    }
+    .my-portpolio-text p{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .about-text p{
+        font-size: 15px;
+    }   
+    #menu-bar{
+        display: block;
+        padding-top: 15px;
+    }
+    .portfolio-header{
+        margin-bottom: 10px;
+    }
+    .MyPortpolio-img{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: -100px;       
+    }
+    .about-image{
+        width: 80%;  
+        margin: 0 auto;
+    }
+}
