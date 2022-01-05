@@ -22,6 +22,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #eee;
 }
 .container{
     width: 80%;
@@ -243,4 +244,71 @@ body{
     display: inline-block;
     margin-left: 20px;
     margin-bottom: 10px;
+}
+
+
+/* ===================
+   Contact-area
+================= */
+.contact{
+    background-color: #eee;
+    margin-bottom: 50px;
+}
+.contact-area{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-image{
+    width: 45%;
+}
+.contact-form{
+    width: 45%;
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border: 10px solid #fff;
+    border-radius: 15px;
+}
+.user-name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 30px;    
+}
+.user-name input,
+.user-subject input,
+.message textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid gray;
+}
+.first-name{
+    width: 48%;
+}
+.last-name{
+    width: 48%;
+}
+.user-subject{
+    margin-bottom: 15px;
+}
+.message{
+    margin-bottom: 15px;
+}
+.contact-btn a{
+    margin-top: 40px;
+    display: inline-block;
+}
+
+/* ===================
+   footer-area
+================= */
+
+.footer-area p{
+    text-align: center;
+    font-size: 20px;
+}
+.footer-area p span{
+    font-size: 30px;
+    color: #16a085;
 }

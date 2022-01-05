@@ -39,7 +39,16 @@
     .blog3 img{
         margin: 0 auto;
     }
+    .contact-image{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    
 }
+
+
 
 @media (max-width:668px){
     
@@ -105,6 +114,13 @@
         width: 100%;
     }
     .portfolio-items{
+        width: 100%;
+    }
+    .first-name{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .last-name{
         width: 100%;
     }
 }
