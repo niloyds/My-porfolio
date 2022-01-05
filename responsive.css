@@ -32,7 +32,23 @@
         width: 80%;  
         margin: 0 auto;
     }
+    .services-item{
+        width: 45%;
+    }
+    .services-item h3{
+        padding: 0 40px;
+    }
+    .portfolio-items{
+        width: 45%;
+    }
     
 }
 
 
+
+
+@media (max-width:500px){
+    .services-item{
+        width: 100%;
+    }
+}

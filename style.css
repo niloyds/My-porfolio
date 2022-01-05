@@ -157,3 +157,34 @@ body{
     color: #27ae60;
 }
 
+/* ===================
+   services-area
+================= */
+.services-area{
+    background-color: #eee;
+}
+.my-services{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.services-item{
+    width: 32%;
+    background-color: #fff;
+    text-align: center;
+    /* box-shadow: 10px 10px 50px #1e1e1e; */
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.services-item i{
+    margin-top: 40px;
+    font-size: 40px;
+    color: #27AE60;
+}
+.services-item p{
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
