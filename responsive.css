@@ -6,8 +6,6 @@
         display: block;
         padding-top: 20px;
     }
-    
-    
     .about-image{
         width: 55%;  
         margin: 0 auto;
@@ -15,7 +13,22 @@
     .about-text{
         width: 100%;
     }
-    
+    .MyPortpolio-img{
+        width: 60%;
+        margin: 0 auto;       
+    }
+    .my-portpolio-text h1{
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 30px;
+    }
+    .my-portpolio-text h2{
+        line-height: 20px;
+    }
+	.my-portpolio-text{
+        width: 100%; 
+        margin-bottom: 100px;      
+    }
 }
 
 @media (max-width:668px){
@@ -49,6 +62,9 @@
 
 @media (max-width:500px){
     .services-item{
+        width: 100%;
+    }
+    .portfolio-items{
         width: 100%;
     }
 }
