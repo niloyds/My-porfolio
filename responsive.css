@@ -7,14 +7,14 @@
         padding-top: 20px;
     }
     .about-image{
-        width: 55%;  
+        width: 50%;  
         margin: 0 auto;
     }
     .about-text{
         width: 100%;
     }
     .MyPortpolio-img{
-        width: 60%;
+        width: 70%;
         margin: 0 auto;       
     }
     .my-portpolio-text h1{
@@ -28,6 +28,16 @@
 	.my-portpolio-text{
         width: 100%; 
         margin-bottom: 100px;      
+    }
+    .blog-item{
+        width: 45%;
+    }
+    .blog3{
+        width: 100%;
+        text-align: center;
+    }
+    .blog3 img{
+        margin: 0 auto;
     }
 }
 
@@ -45,6 +55,33 @@
         width: 80%;  
         margin: 0 auto;
     }
+    .my-portpolio-text h1{
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 30px;
+    }
+    .my-portpolio-text h2{
+        line-height: 55px;
+        font-size: 30px;
+    }
+    .my-portpolio-text h1{
+        line-height: 40px;
+    }
+    .my-portpolio-text h3{
+        font-size: 25px;
+    }
+    .my-portpolio-text p{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .portfolio-header{
+        margin-bottom: 10px;
+    }
+    .MyPortpolio-img{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: -100px;       
+    }
     .services-item{
         width: 45%;
     }
@@ -54,7 +91,10 @@
     .portfolio-items{
         width: 45%;
     }
-    
+    .blog-item{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 
