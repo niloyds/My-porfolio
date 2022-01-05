@@ -215,32 +215,4 @@ body{
     object-fit: cover;
 }
 
-/* ===================
-   Blog-area
-================= */
-.blogs-section{
-    background-color: #eee;
-}
-.my-blog-contant{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-.blog-item{
-    width: 30%;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    border: 10px solid #fff;
-}
-.blog-item h3{
-    text-transform: capitalize;
-    color: #27AE60;
-}
-.blog-item p{
-    margin-bottom: 30px;
-}
-.blog-link a{
-    display: inline-block;
-    margin-left: 20px;
-    margin-bottom: 10px;
-}
+
